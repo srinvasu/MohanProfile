@@ -1,0 +1,81 @@
+/* Ensure body and main container stay fixed */
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: auto; /* Prevents unwanted scrolling */
+    background-color: #F0EBE3;
+  }
+ 
+  h1, h3, h4, h5, h6 {
+    font-family: 'Dancing Script', cursive !important;
+  }
+
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+
+  /* Customize the Accordion Button (Collapsed State) */
+.accordion-button {
+  background-color: #B4B4B8 !important; /* Change to your preferred color */
+  color: #090909 !important; /* Text color when collapsed */
+  border: 1px solid #B4B4B8 !important; /* Change the border color */
+  
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #B4B4B8 !important; /* Background color when expanded */
+  color: #090909 !important; /* Text color when expanded */
+  border: 1px solid #B4B4B8 !important; /* Border color when expanded */
+}
+
+/* Customize the Accordion Content (Expanded State) */
+.accordion-body {
+  background-color: #f8f9fa; /* Light background color for the content */
+  padding: 20px; /* Adjust padding */
+  color: #333 !important; /* Text color in the content */
+}
+
+/* Customize Hover Effect on Accordion Button */
+.accordion-button:hover {
+  background-color: #B4B4B8 !important; /* Hover background color */
+  color: #fff !important; /* Hover text color */
+}
+
+/* Remove focus outline and border color change on click */
+.accordion-button:focus {
+  box-shadow: none !important; /* Remove the box-shadow (blur effect) */
+
+}
+
+
+
+
+  @media (max-width: 375px) {
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .container .row {
+    flex-direction: column; /* Stack the items vertically on small screens */
+  }
+
+  .col-12 {
+    text-align: center; /* Ensure content is centered */
+  }
+
+  .col-md-6 {
+    margin-bottom: 15px; /* Space between the text and image */
+  }
+}
+  
+
+  
+  
+  
+
+  
