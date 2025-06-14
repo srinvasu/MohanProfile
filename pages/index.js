@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Experience from "../Components/Experience";
 const Home = () => {
-  
-
   return (
     <div className="container">
       {/* Heading Section */}
@@ -27,13 +25,24 @@ const Home = () => {
       <div className="row">
         <div className="col-12">
           <h4 className="display-5  bold">Career Snapshot</h4>
-          <p className="lead text-justify">
-            Experienced Web Application Developer with a proven track record of
-            enhancing web app usability and performance. Skilled in React and
-            adept in both front-end development and seamless API integration.
-            Known for strong problem-solving abilities, delivering high-quality
-            solutions, and a commitment to excellence. Consistently driving
-            improvements in client satisfaction and project efficiency.
+          <p className="text-muted lh-lg text-justify career-text">
+            I'm a passionate Web & Mobile Application Developer with a focus on
+            building clean, responsive, and user-friendly digital experiences. I
+            specialize in React for front-end development and have hands-on
+            experience integrating robust REST APIs to create seamless,
+            high-performance applications.
+          </p>
+          <p className="text-muted lh-lg text-justify career-text">
+            With a background in enhancing usability and system efficiency, I’ve
+            worked across multiple projects that deliver real value to users.
+            I’m also available for freelance work, offering full-cycle
+            development for both web and mobile applications — from idea to
+            deployment.
+          </p>
+          <p className="text-muted lh-lg text-justify career-text">
+            Whether you're a startup, business, or individual looking to bring
+            your project to life, I’m here to help with scalable, reliable, and
+            elegant solutions
           </p>
         </div>
       </div>
@@ -64,7 +73,7 @@ const Home = () => {
       <div className="row">
         <div className="col-12">
           <h4 className="display-5  bold">Prefessional Journey</h4>
-          <Experience/>
+          <Experience />
         </div>
       </div>
       <hr className="my-4" />
@@ -75,15 +84,51 @@ const Home = () => {
           <div className="card shadow-sm mb-4">
             <div className="card-body">
               <h5 className="card-title">Bachelor of Technology</h5>
-              <p className="card-text"><strong>Degree:</strong> Bachelor of Technology</p>
-              <p className="card-text"><strong>Field of Study:</strong> Computer Science</p>
-              <p className="card-text"><strong>University:</strong> Jawaharlal Nehru Technological University Kakinada, India</p>
-              <p className="card-text"><strong>Graduation Date:</strong> May 2016</p>
+              <p className="card-text">
+                <strong>Degree:</strong> Bachelor of Technology
+              </p>
+              <p className="card-text">
+                <strong>Field of Study:</strong> Computer Science
+              </p>
+              <p className="card-text">
+                <strong>University:</strong> Jawaharlal Nehru Technological
+                University Kakinada, India
+              </p>
+              <p className="card-text">
+                <strong>Graduation Date:</strong> May 2016
+              </p>
             </div>
           </div>
         </div>
       </div>
-
+      {/* contact on social media platforms */}
+      <div className="row">
+        <div className="col-12">
+          <div className="d-flex justify-content-end gap-3 pe-3">
+            <a
+              href="https://wa.me/919640178906"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/images/whatsapp.svg" alt="WhatsApp" width="30" />
+            </a>
+            <a
+              href="https://www.instagram.com/mickelmohan"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/images/instagram.png" alt="Instagram" width="30" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/mohankristavarapu/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/images/linkedin.png" alt="LinkedIn" width="30" />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

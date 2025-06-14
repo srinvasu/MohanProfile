@@ -3,16 +3,19 @@ const Experience = () => {
     // Data for experiences
   const experiences = [
     {
-      title: "Web Application Developer",
-      company: "Inspire Software Solutions",
+      title: "Integration Developer",
+      company: "Inspire for Solutions Development,Inc",
       location: "Jordan",
       duration: "April 2020 - Current",
       responsibilities: [
-        "Implemented front-end development using HTML, CSS, and JavaScript to create visually appealing web pages.",
-        "Implemented new features to enhance the usability of web applications.",
-        "Maintained existing web application code base by fixing bugs and refactoring code as needed.",
-        "Implemented custom UI components using React JS.",
-        "Reviewed project requirements to identify customer expectations and resources needed to meet goals.",
+        "Analyze integration requirements and design scalable solutions",
+        "Develop and deploy integration flows using tool called IBM App Connect",
+        "Create and consume RESTful and SOAP web services",
+        "Work with ESBs, message brokers, and enterprise messaging patterns",
+        "Implement data transformations using ESQL, XSLT, XSD, or mapping tools",
+        "Ensure secure, reliable, and performant system communication",
+        "Troubleshoot, monitor, and optimize integration flows and services",
+        "Collaborate with business analysts, backend/frontend teams, and QA for end-to-end delivery"
       ],
     },
     {
